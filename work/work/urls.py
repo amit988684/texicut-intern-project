@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # url(r'^time/(\d{1,2})/', views.home, name='home'),
     url(r'^$', views.get_name, name='user'),
+
 ]
